@@ -137,7 +137,7 @@ public class Green3 implements LevelInformation {
 
     private void backgroundColor(List<Sprite> listOfSprites) {
         Image image ;
-        ImageIcon imageIcon = new ImageIcon("C:\\Users\\User\\IdeaProjects\\אני\\רקעים\\3.jpg");
+        ImageIcon imageIcon = new ImageIcon("backgrounds/3.jpg");
         image = imageIcon.getImage();
         Block block = new Block(new Rectangle(new Point(0, 0), 800, 600), image, 1);
         listOfSprites.add(block);

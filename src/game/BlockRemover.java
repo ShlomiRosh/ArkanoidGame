@@ -42,7 +42,7 @@ public class BlockRemover implements HitListener {
 
             if (beingHit.getColor() == null) {
                 Image image;
-                ImageIcon imageIcon = new ImageIcon("C:\\Users\\User\\IdeaProjects\\אני\\רקעים\\output_5FfNen.gif");
+                ImageIcon imageIcon = new ImageIcon("backgrounds/output_5FfNen.gif");
                 image = imageIcon.getImage();
                     BackgroundPhotos photos = new BackgroundPhotos(image, new Point(beingHit.getCollisionRectangle().getUpperLeft().getX()
                             , beingHit.getCollisionRectangle().getUpperLeft().getY()));

@@ -152,7 +152,7 @@ public class SouthPark implements LevelInformation {
 
     private void backgroundColor(List<Sprite> listOfSprites) {
         Image image ;
-        ImageIcon imageIcon = new ImageIcon("C:\\Users\\User\\IdeaProjects\\אני\\רקעים\\1111A.png");
+        ImageIcon imageIcon = new ImageIcon("backgrounds/1111A.png");
         image = imageIcon.getImage();
         Block block = new Block(new Rectangle(new Point(0, 0), 800, 600), image, 1);
         listOfSprites.add(block);

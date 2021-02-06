@@ -115,7 +115,7 @@ public class Paddle implements Sprite, Callable {
         Rectangle rect = this.paddle.getCollisionRectangle();
         if (num == 2) {
             Image image;
-            ImageIcon imageIcon = new ImageIcon("C:\\Users\\User\\IdeaProjects\\אני\\רקעים\\paddle_big.png");
+            ImageIcon imageIcon = new ImageIcon("backgrounds/paddle_big.png");
             image = imageIcon.getImage();
             d.drawImage((int) rect.getUpperLeft().getX(), (int) rect.getUpperLeft().getY(), image);
         } else {
