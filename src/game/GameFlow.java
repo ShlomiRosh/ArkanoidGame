@@ -47,23 +47,30 @@ public class GameFlow {
         GameFlow gameFlow = new GameFlow(animationRunner, gui.getKeyboardSensor());
         List<LevelInformation> newLevel = new ArrayList<>();
 
-        LevelInformation levelInformation5 = new SouthPark();
-        newLevel.add(levelInformation5);
+        LevelInformation levelInformation3 = new Green3();
+        newLevel.add(levelInformation3);
 
         LevelInformation levelInformation4 = new FinalFour();
         newLevel.add(levelInformation4);
 
+        LevelInformation levelInformation5 = new SouthPark();
+        newLevel.add(levelInformation5);
+
         LevelInformation levelInformation1 = new DirectHit();
         newLevel.add(levelInformation1);
-
-        LevelInformation levelInformation3 = new Green3();
-        newLevel.add(levelInformation3);
 
         LevelInformation levelInformation2 = new WideEasy();
         newLevel.add(levelInformation2);
 
         LevelInformation levelInformation11 = new Minions();
         newLevel.add(levelInformation11);
+
+
+
+
+
+
+
 
         gameFlow.runLevels(newLevel);
     }
