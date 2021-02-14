@@ -23,9 +23,9 @@ public class EndScreen implements Animation {
 
     private void sound() {
         if (lives.getValue() == 0) {
-            new Sound("file:./sound/wah.wav", 0).playSound();
+            new Sound("wah.wav", 0).playSound();
         } else {
-            new Sound("file:./sound/3.wav", 0).playSound();
+            new Sound("3.wav", 0).playSound();
         }
     }
     @Override
